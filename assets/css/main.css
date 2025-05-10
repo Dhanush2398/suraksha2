@@ -8210,3 +8210,80 @@ span {
 .shop-section{ 
   background-color: #dcf2fe;
 }
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #3a6eff;
+  background: #ffffff66;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.swiper-pagination-bullet {
+  background: #e0dddd;
+  opacity: 1;
+  width: 12px;
+  height: 12px;
+  margin: 0 5px !important;
+  transition: 0.3s;
+}
+
+.swiper-pagination-bullet-active {
+  background: #3a6eff;
+  transform: scale(1.2);
+}
+
+
+@media (max-width: 991px) {
+  .hero-1 .hero-content h1 {
+    font-size: 48px;
+    line-height: 60px;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .hero-1 .hero-content h1 {
+    font-size: 36px;
+    line-height: 46px;
+  }
+}
+
+
+.hero-section.hero-1 {
+  height: 600px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+@media (max-width: 768px) {
+  .hero-section.hero-1 {
+    height: 600px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .hero-section.hero-1 .hero-content h1 {
+    font-size: 40px; 
+    line-height: 50px;
+  }
+
+  .hero-section.hero-1 .hero-content h6 {
+    font-size: 16px;
+  }
+  .hero-content{
+    padding-top: 300px !important;
+  }
+}
+
