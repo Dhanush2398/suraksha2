@@ -7799,7 +7799,7 @@ span {
 .banner-book-card-items .banner-book-content h2 {
   line-height: 120%;
   font-size: 36px;
-  color: var(--white);
+  color: #000;
   margin-bottom: 15px;
 }
 .banner-book-card-items .banner-book-content h6 {
@@ -8131,7 +8131,7 @@ span {
 }
 
 @media (max-width: 767px) {
-    .book-shape {
+   .hero-items .book-shape {
         display: none;
     }
 }
