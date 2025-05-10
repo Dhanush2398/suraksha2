@@ -8171,3 +8171,39 @@ span {
 .about-content p{
   padding-top: 10px;
 }
+
+
+.book-thumb.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    padding: 10px;
+}
+
+.book-thumb.center img {
+    max-width: 100%;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.book-thumb.center .shop-icon {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    padding: 0;
+}
+
+.book-thumb.center .shop-icon li a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
