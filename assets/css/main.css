@@ -8268,14 +8268,14 @@ span {
 
 @media (max-width: 768px) {
   .hero-section.hero-1 {
-    height: 800px;
+    height: 750px;
   }
 }
 
 
 @media (max-width: 768px) {
   .hero-section.hero-1 .hero-content h1 {
-    font-size: 40px; 
+    font-size: 30px; 
     line-height: 50px;
   }
 
