@@ -8287,6 +8287,9 @@ span {
   }
 }
 
-.header-1{
-  height: 120px;
+
+@media (min-width: 769px) {
+  .header-1 {
+    height: 120px;
+  }
 }
