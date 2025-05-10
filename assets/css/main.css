@@ -5583,7 +5583,7 @@ span {
   color: var(--white);
 }
 .shop-box-items .book-thumb {
-  background-color: var(--bg2);
+  background-color: #fff;
   padding: 30px;
   border-radius: 10px;
   position: relative;
@@ -8206,4 +8206,7 @@ span {
     height: 36px;
     border-radius: 50%;
     transition: all 0.3s ease;
+}
+.shop-section{ 
+  background-color: #dcf2fe;
 }
