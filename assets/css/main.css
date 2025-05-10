@@ -8378,7 +8378,7 @@ span {
   padding: 20px 16px;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 6px;
   text-align: center; 
 }
 
@@ -8387,7 +8387,7 @@ span {
   color: #012E4A;
   font-size: 1.4rem;
   letter-spacing: 0.5px;
-  line-height: 1.4;
+  line-height: 1;
   text-transform: capitalize;
   opacity: 0;
   animation: typewriter 1s 0.4s forwards;
@@ -8425,7 +8425,7 @@ span {
   align-items: center;
   justify-content: center;
   gap: 8px;
-  background-color: #036280;
+  background-color: var(--theme2);
   color: #fff;
   border: none;
   border-radius: 8px;
