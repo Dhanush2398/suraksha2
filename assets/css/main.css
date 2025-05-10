@@ -8306,9 +8306,9 @@ span {
 }
 
 .product-card {
-  background: #fafafa; 
+  background: #D0E1E7;
   border-radius: 16px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
   overflow: hidden;
   transition: transform 0.4s ease, box-shadow 0.4s ease;
   display: flex;
@@ -8341,7 +8341,7 @@ span {
   overflow: hidden;
   opacity: 0;
   animation: imageFadeIn 0.6s ease forwards;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #888484;
 }
 
 @keyframes imageFadeIn {
@@ -8371,7 +8371,7 @@ span {
 .product-card:hover {
   transform: translateY(-10px);
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
-  background-color: #e8f5e9; 
+  background-color: #D0E1E7; 
 }
 
 .product-info {
@@ -8448,6 +8448,6 @@ span {
 }
 
 .product-section{
-  background-color: #D0E1E7;
+  background-color: #9CB4BF;
   padding-bottom: 50px;
 }
